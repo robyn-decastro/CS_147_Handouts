@@ -1,0 +1,43 @@
+# vsim -voptargs="+acc" work.tb_regFile 
+# Start time: 19:10:38 on Oct 07,2026
+# Loading work.tb_regFile
+# Loading work.regFile
+# Loading work.register
+# Loading work.dff_4b
+# Loading work.dff
+# Loading work.regFile_bypass
+add wave -r /tb_regFile*
+# ** UI-Msg: (vish-4014) No objects found matching '/tb_regFile*'.
+add wave -r /tb_regFile/*
+run -all
+# --- T1: initial reset, everything reads 0 ---
+# --- T2: basic writes and reads ---
+# --- T3: writeEn=0 must not write ---
+# --- T4: reset with wen=0 clears ALL registers ---
+# --- T5: reset has priority over a simultaneous write (every target reg) ---
+# --- T6: reset held for several cycles while writing ---
+# --- T7: writes work immediately after reset releases ---
+# --- T8: single-cycle reset between two writes ---
+# --- T9: reset is synchronous: a pulse that misses posedge is ignored ---
+# --- T10: reset asserted but dropped just before the edge, with a write ---
+# --- T11: reset then read-while-write (bypass vs reset) ---
+# --- T12: X inputs must raise err (reset keeps regs clean) ---
+# FAIL @1822: regFile err not 1 for writeData = X
+# FAIL @1822: bypass err not 1 for writeData = X
+# FAIL @1832: regFile err not 1 for read1RegSel = X
+# FAIL @1832: bypass err not 1 for read1RegSel = X
+# FAIL @1842: regFile err not 1 for read2RegSel = X
+# FAIL @1842: bypass err not 1 for read2RegSel = X
+# FAIL @1852: regFile err not 1 for writeEn = X
+# FAIL @1852: bypass err not 1 for writeEn = X
+# FAIL @1862: regFile err not 1 for writeRegSel = X
+# FAIL @1862: bypass err not 1 for writeRegSel = X
+# --- T13: random test with frequent resets ---
+# -----------------------------------------
+# FAILED: 10 errors in 4201 checks
+# ** Note: $finish    : tb_regFile_bypass.v(254)
+#    Time: 42035 ps  Iteration: 1  Instance: /tb_regFile
+# 1
+# Break in Module tb_regFile at tb_regFile_bypass.v line 254
+# End time: 19:23:33 on Oct 07,2026, Elapsed time: 0:12:55
+# Errors: 0, Warnings: 0

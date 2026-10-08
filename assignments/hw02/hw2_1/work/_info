@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vclkrst
+Z0 !s110 1789883076
+!i10b 1
+!s100 [0mEC]SSJ^ZCfo3[Lm;c>2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I;c]mG2n_nbfYgMlaY?;7=1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Development/CS_147_Handouts/assignments/hw02/hw2_1
+Z4 w1787709475
+8C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/clkrst.v
+FC:/Development/CS_147_Handouts/assignments/hw02/hw2_1/clkrst.v
+!i122 6
+L0 10 41
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1789883076.000000
+!s107 C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/clkrst.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/clkrst.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vshifter
+!s110 1789883146
+!i10b 1
+!s100 DZCG9>A^kdT9ie3fC@8H`1
+R1
+IaBDAn`K2gQc?N>KXSfz1j0
+R2
+R3
+w1789883143
+8C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter.v
+FC:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter.v
+!i122 9
+L0 7 58
+R5
+r1
+!s85 0
+31
+!s108 1789883146.000000
+!s107 C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter.v|
+!i113 1
+R7
+R8
+vshifter_hier
+R0
+!i10b 1
+!s100 eJ^<^bz4_1oHkFMP0OJHN3
+R1
+IDVH;FOPnQ]iaX;gM108dH1
+R2
+R3
+R4
+8C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier.v
+FC:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier.v
+!i122 7
+L0 7 29
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier.v|
+!i113 1
+R7
+R8
+vshifter_hier_bench
+!s110 1789883077
+!i10b 1
+!s100 c?j>Y<je[>L`2ZzGa0_d02
+R1
+I3V;D<]G]006Ia1YQjz3WI0
+R2
+R3
+R4
+8C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier_bench.v
+FC:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier_bench.v
+!i122 8
+L0 7 125
+R5
+r1
+!s85 0
+31
+!s108 1789883077.000000
+!s107 C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier_bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier_bench.v|
+!i113 1
+R7
+R8

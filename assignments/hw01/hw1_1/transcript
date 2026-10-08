@@ -1,0 +1,14 @@
+# Compile of mux4_1_4b.v was successful.
+vsim work.mux4_1_4b_bench
+# vsim work.mux4_1_4b_bench 
+# Start time: 03:01:40 on Sep 08,2026
+# Loading work.mux4_1_4b_bench
+# Loading work.clkrst
+# Loading work.mux4_1_4b
+# Loading work.mux4_1
+# Loading work.mux2_1
+# Loading work.not1
+# Loading work.nand2
+# Loading work.nor2
+# End time: 05:40:50 on Sep 08,2026, Elapsed time: 2:39:10
+# Errors: 0, Warnings: 2

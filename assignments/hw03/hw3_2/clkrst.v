@@ -1,6 +1,6 @@
 /*
     CS 147 Spring 26
-    Homework #3, problem 2
+    Homework #3, problem 1
 
     Clock and reset generator.
 */
@@ -40,11 +40,12 @@ module clkrst (clk, rst, err);
         without this change, such benchmarks will erroneously fail due to
         reset cycles at the beginning.
         */
-       if (cycle_count > 100004) begin
+        if (cycle_count > 100004) begin
           $display("hmm....more than 100004 cycles of simulation...error?\n");
-          $finish;
-       end
+                  $finish;
+        end
     end
+
 
 endmodule
 // DUMMY LINE FOR REV CONTROL :0:

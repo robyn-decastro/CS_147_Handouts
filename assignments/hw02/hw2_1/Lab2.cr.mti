@@ -1,0 +1,29 @@
+C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier_bench.v {1 {vlog -work work -stats=none C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier_bench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shifter_hier_bench
+
+Top level modules:
+	shifter_hier_bench
+
+} {} {}} C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/clkrst.v {1 {vlog -work work -stats=none C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/clkrst.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier.v {1 {vlog -work work -stats=none C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter_hier.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shifter_hier
+
+Top level modules:
+	shifter_hier
+
+} {} {}} C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter.v {1 {vlog -work work -stats=none C:/Development/CS_147_Handouts/assignments/hw02/hw2_1/shifter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}}
